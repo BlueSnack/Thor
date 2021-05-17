@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Enter your details here:</h1>
+    <hr width="80%" align="left">
+    <div id="Reg-form">
+        <form>
+            <div>
+                <label for="firstName"><b>First Name :</b></label>
+                <input name="firstName" type="text" placeholder="Steve" required>
+                <label for="secondName"><b>Second Name :</b></label>
+                <input name="secondName" type="text" placeholder="Rogers" required>
+                <br>
+                <label for="gen"><b>Gender :</b></label>
+                <input type="radio" name="gen" value="choice1" required>Male
+                <input type="radio" name="gen" value="choice2" required>Female
+                <input type="radio" name="gen" value="choice3" required>Others
+            </div>
+
+            <div>
+                <label for="email"><b>Email :</b></label>
+                <input type="text" name="email" placeholder="xyz@gmail.com" required>
+                <label for="pass"><b>Password :</b></label>
+                <input type="password" name="pass" required>
+            </div>
+
+            <div>
+                <label for="month"><b>Birthday :</b></label>
+                <input type="date" name="Date">
+                <select name="month">
+                    <option value="0" selected disabled>Month</option>
+                    <option value="Jan">January</option>
+                    <option value="Feb">February</option>
+                    <option value="Mar">March</option>
+                    <option value="Apr">April</option>
+                    <option value="May">May</option>
+                    <option value="Jun">June</option>
+                    <option value="Jul">July</option>
+                    <option value="Aug">August</option>
+                    <option value="Sept">September</option>
+                    <option value="Oct">October</option>
+                    <option value="Nov">November</option>
+                    <option value="Dec">December</option>
+                </select>
+            </div>
+
+            <label for="agree">I agree to all the terms & conditions :</label>
+            <input type="checkbox" name="agree">
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+</body>
+<script>
+    var num1 = prompt("Enter some value");
+    console.log(typeof num1);
+    console.log(parseInt(num1) + 6);
+    if (num1 > 10) {
+        alert("Number should be less than 10");
+    }
+    var ndate = new Date();
+    console.log(ndate);
+
+</script>
+
+</html>

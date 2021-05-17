@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(https://themeditationeffect.com/wp-content/uploads/2016/07/feeling-good-sunlight.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+
+        #container {
+            background: rebeccapurple;
+            border: 2px solid darkblue;
+            border-radius: 5px;
+        }
+
+        #fixed-position {
+            position: fixed;
+            right: 10px;
+            width: 150px;
+            height: 50px;
+            border-radius: 15px;
+            background: black;
+            justify-content: center;
+            color: white;
+        }
+
+        #relative1 {
+            background-image: url(https://ii1.pepperfry.com/media/catalog/product/s/e/1100x1210/set-of-6-engineered-wood-wave-plain-wall-shelf-in-coffee-brown-colour-by-random-set-of-6-engineered--4jf4fg.jpg);
+            border: 2px solid black;
+            background-size: contain;
+            font-weight: 200;
+            font-size: x-large;
+            height: 200px;
+            width: 200px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        #relative2 {
+            position: relative;
+            background-image: url(https://cdn.pixabay.com/photo/2017/01/08/17/48/cube-1963521_960_720.jpg);
+            background-size: cover;
+            color: rgb(247, 253, 242);
+            border: 2px dashed darkred;
+            border-radius: 10px;
+            height: 150px;
+            width: 250px;
+            left: 2%;
+            top: 30px;
+            text-align: center;
+            font-size: x-large;
+        }
+
+        #crop {
+            height: 150px;
+            width: 250px;
+            background-size: cover;
+            border-radius: 50px;
+        }
+
+        footer {
+            text-align: center;
+            color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is a practice of positioning</h1>
+    <hr>
+    <div id="container">
+        <div id="default">Example text</div>
+        <div id="centered">Some more text</div>
+        <div id="centered-text">Add some more text</div>
+    </div>
+    <!-- demonstrate absolute positioning -->
+    <div id="top-left">Top right
+        <div id="bottom-right">Bottom right parent</div>
+    </div>
+    <div id="bottom-right">Top left
+        <div id="bottom-left">Top right parent</div>
+    </div>
+    <p id="fixed-position">I am staying right here. And don't mind me</p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut repudiandae doloribus possimus non, harum
+        provident amet. Asperiores vel provident accusantium necessitatibus corrupti exercitationem repudiandae
+        inventore quas sunt, laboriosam voluptate assumenda.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut repudiandae doloribus possimus non, harum
+        provident amet. Asperiores vel provident accusantium necessitatibus corrupti exercitationem repudiandae
+        inventore quas sunt, laboriosam voluptate assumenda.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut repudiandae doloribus possimus non, harum
+        provident amet. Asperiores vel provident accusantium necessitatibus corrupti exercitationem repudiandae
+        inventore quas sunt, laboriosam voluptate assumenda.
+    </p>
+    <div id="relative1">Relative layout</div>
+    <div id="relative2">Relative layout2</div>
+    <br>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut repudiandae doloribus possimus non, harum
+        provident amet. Asperiores vel provident accusantium necessitatibus corrupti exercitationem repudiandae
+        inventore quas sunt, laboriosam voluptate assumenda.
+    </p>
+    <hr>
+    <footer>All the above imformation is just for practicing purpose.<br>All rights reserved copyright &copy;2021
+        @Corona
+    </footer>
+</body>
+
+</html>
